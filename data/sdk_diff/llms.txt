@@ -1,0 +1,4 @@
+# Active SDK Breaking Changes & Deprecations
+> Anti-hallucination syntax ground-truth for AI coding agents.
+
+## Recent Deprecation Mappings

@@ -1,0 +1,40 @@
+# Real-Time Foundation Model Token Economy & Capabilities
+> Ground-truth pricing, context ceilings, and tool-calling capabilities for routing agents.
+
+| Model ID | Context | In $/1M ert{} Out $/1M | Tools | JSON |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `meta-llama/llama-4-scout` | 1,310,720 | $0.10 | $0.30 | Yes | Yes |
+| `openai/gpt-6.1-sol-pro` | 1,050,000 | $2.00 | $10.00 | Yes | Yes |
+| `openai/gpt-6.1-sol-pro:batch` | 1,050,000 | $1.00 | $5.00 | Yes | Yes |
+| `openai/gpt-6.1-sol` | 1,050,000 | $2.00 | $10.00 | Yes | Yes |
+| `openai/gpt-6.1-sol:batch` | 1,050,000 | $1.00 | $5.00 | Yes | Yes |
+| `openai/gpt-6-luna-pro` | 1,050,000 | $0.10 | $0.50 | Yes | Yes |
+| `openai/gpt-6-luna-pro:batch` | 1,050,000 | $0.05 | $0.25 | Yes | Yes |
+| `openai/gpt-6-luna` | 1,050,000 | $0.10 | $0.50 | Yes | Yes |
+| `openai/gpt-6-luna:batch` | 1,050,000 | $0.05 | $0.25 | Yes | Yes |
+| `openai/gpt-6-sol-pro` | 1,050,000 | $2.00 | $10.00 | Yes | Yes |
+| `openai/gpt-6-sol-pro:batch` | 1,050,000 | $1.00 | $5.00 | Yes | Yes |
+| `openai/gpt-6-sol` | 1,050,000 | $2.00 | $10.00 | Yes | Yes |
+| `openai/gpt-6-sol:batch` | 1,050,000 | $1.00 | $5.00 | Yes | Yes |
+| `openai/gpt-6-astra` | 1,050,000 | $10.00 | $50.00 | Yes | Yes |
+| `openai/gpt-6-astra:batch` | 1,050,000 | $5.00 | $25.00 | Yes | Yes |
+| `openai/gpt-6-astra-pro` | 1,050,000 | $10.00 | $50.00 | Yes | Yes |
+| `openai/gpt-6-astra-pro:batch` | 1,050,000 | $5.00 | $25.00 | Yes | Yes |
+| `openai/gpt-5.6-luna-pro` | 1,050,000 | $0.20 | $1.20 | Yes | Yes |
+| `openai/gpt-5.6-luna-pro:batch` | 1,050,000 | $0.10 | $0.60 | Yes | Yes |
+| `openai/gpt-5.6-luna` | 1,050,000 | $0.20 | $1.20 | Yes | Yes |
+| `openai/gpt-5.6-luna:batch` | 1,050,000 | $0.10 | $0.60 | Yes | Yes |
+| `openai/gpt-5.6-terra-pro` | 1,050,000 | $2.00 | $12.00 | Yes | Yes |
+| `openai/gpt-5.6-terra-pro:batch` | 1,050,000 | $1.00 | $6.00 | Yes | Yes |
+| `openai/gpt-5.6-terra` | 1,050,000 | $2.00 | $12.00 | Yes | Yes |
+| `openai/gpt-5.6-terra:batch` | 1,050,000 | $1.00 | $6.00 | Yes | Yes |
+| `openai/gpt-5.6-sol-pro` | 1,050,000 | $4.00 | $20.00 | Yes | Yes |
+| `openai/gpt-5.6-sol-pro:batch` | 1,050,000 | $2.00 | $10.00 | Yes | Yes |
+| `openai/gpt-5.6-sol` | 1,050,000 | $4.00 | $20.00 | Yes | Yes |
+| `openai/gpt-5.6-sol:batch` | 1,050,000 | $2.00 | $10.00 | Yes | Yes |
+| `openai/gpt-5.5-pro` | 1,050,000 | $30.00 | $180.00 | Yes | Yes |
+| `openai/gpt-5.5-pro:batch` | 1,050,000 | $15.00 | $90.00 | Yes | Yes |
+| `openai/gpt-5.5` | 1,050,000 | $5.00 | $30.00 | Yes | Yes |
+| `openai/gpt-5.5:batch` | 1,050,000 | $2.50 | $15.00 | Yes | Yes |
+| `openai/gpt-5.4-pro` | 1,050,000 | $30.00 | $180.00 | Yes | Yes |
+| `openai/gpt-5.4-pro:batch` | 1,050,000 | $15.00 | $90.00 | Yes | Yes |

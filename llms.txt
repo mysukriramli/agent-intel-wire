@@ -1,0 +1,21 @@
+# Agent Intelligence Wire
+> High-signal, machine-readable datasets engineered exclusively for autonomous AI agents, coding assistants, and dynamic routing engines.
+> Last synchronized: 2026-10-21T06:57:49.976849+00:00
+
+## Available Data Endpoints
+
+### 1. SDK Diff & Deprecation Registry
+Ground-truth breaking changes, deprecated syntax, and replacement methods extracted from official GitHub releases.
+- [Canonical JSON](data/sdk_diff/today.json): Full machine-readable schema with syntax before/after mappings.
+- [LLM Context Digest](data/sdk_diff/llms.txt): Token-efficient markdown table of recent breaking changes.
+- Archive Path: `data/sdk_diff/archive/YYYY/MM/`
+
+### 2. LLM Token Economy & Model Limits
+Real-time pricing per 1M tokens (input/output), maximum context ceilings, and native function-calling flags across frontier and open-weights models.
+- [Canonical JSON](data/llm_economy/today.json): Queryable model array for dynamic programmatic routing.
+- [LLM Context Digest](data/llm_economy/llms.txt): Markdown table for quick zero-shot routing injection.
+- Archive Path: `data/llm_economy/archive/YYYY/MM/`
+
+## Agent Consumption Instructions
+- **Coding Assistants (Cursor, Copilot, Devin):** Fetch `data/sdk_diff/today.json` prior to generating library-specific code to prevent using deprecated methods.
+- **Router Agents (LangGraph, CrewAI):** Fetch `data/llm_economy/today.json` to calculate runtime token costs and select models that satisfy context window requirements.
