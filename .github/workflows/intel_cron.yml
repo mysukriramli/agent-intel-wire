@@ -2,7 +2,7 @@ name: Agent Intelligence Wire Cron
 
 on:
   schedule:
-    # Runs at 00:00, 06:00, 12:00, 18:00 UTC
+    # Runs every 6 hours (00:00, 06:00, 12:00, 18:00 UTC)
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
@@ -15,19 +15,14 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git clone --depth 1 "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" .
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          python3 -m pip install --break-system-packages --upgrade pip
+          python3 -m pip install --break-system-packages -r requirements.txt
 
       - name: Ingest Feeds and Rebuild Endpoints
         env:
@@ -36,7 +31,7 @@ jobs:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL || 'https://api.openai.com/v1' }}
           LLM_MODEL: ${{ secrets.LLM_MODEL || 'gpt-4o-mini' }}
         run: |
-          python main.py
+          python3 main.py
 
       - name: Commit and push updates
         run: |
@@ -45,7 +40,7 @@ jobs:
           git add -A data/ llms.txt
           
           if git diff --staged --quiet; then
-            echo "No changes detected across any feeds. Skipping commit."
+            echo "No changes detected across feeds. Skipping commit."
           else
             git commit -m "chore(intel): refresh sdk diff and model economy endpoints [skip ci]"
             git pull --rebase origin main
