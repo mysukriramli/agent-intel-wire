@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-10-21T06:57:49.971845+00:00",
+    "generated_at": "2026-10-21T16:16:16.307170+00:00",
     "total_items": 268,
     "schema_version": "1.0.0"
   },
@@ -419,8 +419,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.3,
-      "completion_cost_per_1m_usd": 1.2,
+      "prompt_cost_per_1m_usd": 0.15,
+      "completion_cost_per_1m_usd": 0.6,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -463,7 +463,7 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.049,
+      "prompt_cost_per_1m_usd": 0.0239,
       "completion_cost_per_1m_usd": 0.375,
       "supports_tools": true,
       "supports_structured_output": true
@@ -550,7 +550,7 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 384000,
+      "max_output_tokens": 393216,
       "prompt_cost_per_1m_usd": 0.66,
       "completion_cost_per_1m_usd": 1.98,
       "supports_tools": true,
@@ -562,8 +562,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 131072,
-      "prompt_cost_per_1m_usd": 0.44,
-      "completion_cost_per_1m_usd": 1.32,
+      "prompt_cost_per_1m_usd": 0.0444,
+      "completion_cost_per_1m_usd": 0.1333,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -661,8 +661,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 384000,
-      "prompt_cost_per_1m_usd": 0.9553,
-      "completion_cost_per_1m_usd": 1.9105,
+      "prompt_cost_per_1m_usd": 0.4275,
+      "completion_cost_per_1m_usd": 0.855,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1783,8 +1783,8 @@
       "provider": "qwen",
       "context_window_tokens": 262144,
       "max_output_tokens": 65536,
-      "prompt_cost_per_1m_usd": 0.4,
-      "completion_cost_per_1m_usd": 3.2,
+      "prompt_cost_per_1m_usd": 0.26,
+      "completion_cost_per_1m_usd": 2.08,
       "supports_tools": true,
       "supports_structured_output": true
     },
