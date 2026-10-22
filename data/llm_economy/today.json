@@ -1,8 +1,8 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-10-21T20:59:56.582097+00:00",
-    "total_items": 268,
+    "generated_at": "2026-10-22T02:20:57.344986+00:00",
+    "total_items": 267,
     "schema_version": "1.0.0"
   },
   "models": [
@@ -419,8 +419,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.15,
-      "completion_cost_per_1m_usd": 0.6,
+      "prompt_cost_per_1m_usd": 0.3,
+      "completion_cost_per_1m_usd": 1.2,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -463,8 +463,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.0239,
-      "completion_cost_per_1m_usd": 0.375,
+      "prompt_cost_per_1m_usd": 0.3,
+      "completion_cost_per_1m_usd": 1.2,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -551,8 +551,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.66,
-      "completion_cost_per_1m_usd": 1.98,
+      "prompt_cost_per_1m_usd": 1.32,
+      "completion_cost_per_1m_usd": 3.96,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -562,8 +562,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 131072,
-      "prompt_cost_per_1m_usd": 0.0444,
-      "completion_cost_per_1m_usd": 0.1333,
+      "prompt_cost_per_1m_usd": 0.44,
+      "completion_cost_per_1m_usd": 1.32,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -661,8 +661,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 384000,
-      "prompt_cost_per_1m_usd": 0.3988,
-      "completion_cost_per_1m_usd": 0.7976,
+      "prompt_cost_per_1m_usd": 0.9553,
+      "completion_cost_per_1m_usd": 1.9105,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -773,17 +773,6 @@
       "max_output_tokens": 65535,
       "prompt_cost_per_1m_usd": 0.1,
       "completion_cost_per_1m_usd": 0.4,
-      "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
-      "model_id": "google/gemini-2.5-flash-lite:batch",
-      "name": "Google: Gemini 2.5 Flash Lite (batch)",
-      "provider": "google",
-      "context_window_tokens": 1048576,
-      "max_output_tokens": 65535,
-      "prompt_cost_per_1m_usd": 0.05,
-      "completion_cost_per_1m_usd": 0.2,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1783,8 +1772,8 @@
       "provider": "qwen",
       "context_window_tokens": 262144,
       "max_output_tokens": 65536,
-      "prompt_cost_per_1m_usd": 0.26,
-      "completion_cost_per_1m_usd": 2.08,
+      "prompt_cost_per_1m_usd": 0.4,
+      "completion_cost_per_1m_usd": 3.2,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1793,9 +1782,9 @@
       "name": "Qwen: Qwen3.5 397B A17B",
       "provider": "qwen",
       "context_window_tokens": 262144,
-      "max_output_tokens": 65536,
-      "prompt_cost_per_1m_usd": 0.39,
-      "completion_cost_per_1m_usd": 2.34,
+      "max_output_tokens": 235929,
+      "prompt_cost_per_1m_usd": 0.5,
+      "completion_cost_per_1m_usd": 3.6,
       "supports_tools": true,
       "supports_structured_output": true
     },
