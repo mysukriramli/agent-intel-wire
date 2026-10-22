@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-10-22T16:14:54.651025+00:00",
+    "generated_at": "2026-10-22T20:57:55.175153+00:00",
     "total_items": 267,
     "schema_version": "1.0.0"
   },
@@ -1673,8 +1673,8 @@
       "provider": "google",
       "context_window_tokens": 262144,
       "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.09,
-      "completion_cost_per_1m_usd": 0.3,
+      "prompt_cost_per_1m_usd": 0.0765,
+      "completion_cost_per_1m_usd": 0.255,
       "supports_tools": true,
       "supports_structured_output": true
     },
