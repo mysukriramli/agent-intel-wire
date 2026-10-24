@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-10-24T02:24:14.415459+00:00",
+    "generated_at": "2026-10-24T09:57:48.876069+00:00",
     "total_items": 267,
     "schema_version": "1.0.0"
   },
@@ -661,8 +661,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 384000,
-      "prompt_cost_per_1m_usd": 0.6419,
-      "completion_cost_per_1m_usd": 1.2838,
+      "prompt_cost_per_1m_usd": 0.3783,
+      "completion_cost_per_1m_usd": 0.7566,
       "supports_tools": true,
       "supports_structured_output": true
     },
