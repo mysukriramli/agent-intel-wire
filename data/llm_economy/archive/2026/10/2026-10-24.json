@@ -1,8 +1,8 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-10-24T15:01:31.819784+00:00",
-    "total_items": 267,
+    "generated_at": "2026-10-24T19:57:13.447800+00:00",
+    "total_items": 264,
     "schema_version": "1.0.0"
   },
   "models": [
@@ -661,8 +661,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 384000,
-      "prompt_cost_per_1m_usd": 0.2161,
-      "completion_cost_per_1m_usd": 0.4322,
+      "prompt_cost_per_1m_usd": 0.2088,
+      "completion_cost_per_1m_usd": 0.4176,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2878,28 +2878,6 @@
       "supports_structured_output": true
     },
     {
-      "model_id": "openai/gpt-3.5-turbo",
-      "name": "OpenAI: GPT-3.5 Turbo",
-      "provider": "openai",
-      "context_window_tokens": 16385,
-      "max_output_tokens": 4096,
-      "prompt_cost_per_1m_usd": 0.5,
-      "completion_cost_per_1m_usd": 1.5,
-      "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
-      "model_id": "openai/gpt-3.5-turbo:batch",
-      "name": "OpenAI: GPT-3.5 Turbo (batch)",
-      "provider": "openai",
-      "context_window_tokens": 16385,
-      "max_output_tokens": 4096,
-      "prompt_cost_per_1m_usd": 0.25,
-      "completion_cost_per_1m_usd": 0.75,
-      "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
       "model_id": "google/gemma-2-27b-it",
       "name": "Google: Gemma 2 27B",
       "provider": "google",
@@ -2930,17 +2908,6 @@
       "prompt_cost_per_1m_usd": 1.0,
       "completion_cost_per_1m_usd": 2.0,
       "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
-      "model_id": "openai/gpt-3.5-turbo-instruct",
-      "name": "OpenAI: GPT-3.5 Turbo Instruct",
-      "provider": "openai",
-      "context_window_tokens": 4095,
-      "max_output_tokens": 3685,
-      "prompt_cost_per_1m_usd": 1.5,
-      "completion_cost_per_1m_usd": 2.0,
-      "supports_tools": false,
       "supports_structured_output": true
     }
   ]
