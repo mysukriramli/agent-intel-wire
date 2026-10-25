@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-10-24T19:57:13.447800+00:00",
+    "generated_at": "2026-10-25T02:11:32.334754+00:00",
     "total_items": 264,
     "schema_version": "1.0.0"
   },
@@ -561,9 +561,9 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 131072,
-      "prompt_cost_per_1m_usd": 0.0444,
-      "completion_cost_per_1m_usd": 0.1333,
+      "max_output_tokens": 943718,
+      "prompt_cost_per_1m_usd": 0.0422,
+      "completion_cost_per_1m_usd": 0.1694,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2475,9 +2475,9 @@
       "name": "Meta: Llama 3.2 3B Instruct",
       "provider": "meta-llama",
       "context_window_tokens": 131072,
-      "max_output_tokens": 72000,
-      "prompt_cost_per_1m_usd": 0.0509,
-      "completion_cost_per_1m_usd": 0.335,
+      "max_output_tokens": 117964,
+      "prompt_cost_per_1m_usd": 0.05,
+      "completion_cost_per_1m_usd": 0.33,
       "supports_tools": false,
       "supports_structured_output": false
     },
