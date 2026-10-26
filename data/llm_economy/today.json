@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-10-25T20:07:32.246646+00:00",
+    "generated_at": "2026-10-26T02:11:56.646776+00:00",
     "total_items": 264,
     "schema_version": "1.0.0"
   },
@@ -419,8 +419,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.15,
-      "completion_cost_per_1m_usd": 0.6,
+      "prompt_cost_per_1m_usd": 0.3,
+      "completion_cost_per_1m_usd": 1.2,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -551,8 +551,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.66,
-      "completion_cost_per_1m_usd": 1.98,
+      "prompt_cost_per_1m_usd": 1.32,
+      "completion_cost_per_1m_usd": 3.96,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -562,8 +562,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 131072,
-      "prompt_cost_per_1m_usd": 0.0444,
-      "completion_cost_per_1m_usd": 0.1333,
+      "prompt_cost_per_1m_usd": 0.44,
+      "completion_cost_per_1m_usd": 1.32,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -661,8 +661,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 384000,
-      "prompt_cost_per_1m_usd": 0.2088,
-      "completion_cost_per_1m_usd": 0.4176,
+      "prompt_cost_per_1m_usd": 0.9483,
+      "completion_cost_per_1m_usd": 1.8966,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -671,9 +671,9 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 943717,
-      "prompt_cost_per_1m_usd": 0.091,
-      "completion_cost_per_1m_usd": 0.182,
+      "max_output_tokens": 943718,
+      "prompt_cost_per_1m_usd": 0.05,
+      "completion_cost_per_1m_usd": 0.45,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -858,7 +858,7 @@
       "name": "OpenAI: GPT-4.1 Nano",
       "provider": "openai",
       "context_window_tokens": 1047576,
-      "max_output_tokens": 32768,
+      "max_output_tokens": 942818,
       "prompt_cost_per_1m_usd": 0.1,
       "completion_cost_per_1m_usd": 0.4,
       "supports_tools": true,
@@ -1694,9 +1694,9 @@
       "name": "Google: Gemma 4 31B",
       "provider": "google",
       "context_window_tokens": 262144,
-      "max_output_tokens": 16384,
-      "prompt_cost_per_1m_usd": 0.2,
-      "completion_cost_per_1m_usd": 0.4,
+      "max_output_tokens": 235929,
+      "prompt_cost_per_1m_usd": 0.1,
+      "completion_cost_per_1m_usd": 0.34,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1772,8 +1772,8 @@
       "provider": "qwen",
       "context_window_tokens": 262144,
       "max_output_tokens": 65536,
-      "prompt_cost_per_1m_usd": 0.4,
-      "completion_cost_per_1m_usd": 3.2,
+      "prompt_cost_per_1m_usd": 0.26,
+      "completion_cost_per_1m_usd": 2.08,
       "supports_tools": true,
       "supports_structured_output": true
     },
