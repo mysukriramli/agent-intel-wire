@@ -1,8 +1,8 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-10-28T11:48:20.209013+00:00",
-    "total_items": 263,
+    "generated_at": "2026-10-28T17:35:47.662579+00:00",
+    "total_items": 255,
     "schema_version": "1.0.0"
   },
   "models": [
@@ -705,8 +705,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 384000,
-      "prompt_cost_per_1m_usd": 0.9553,
-      "completion_cost_per_1m_usd": 1.9105,
+      "prompt_cost_per_1m_usd": 0.889,
+      "completion_cost_per_1m_usd": 1.7779,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1921,17 +1921,6 @@
       "supports_structured_output": true
     },
     {
-      "model_id": "qwen/qwen3-next-80b-a3b-thinking",
-      "name": "Qwen: Qwen3 Next 80B A3B Thinking",
-      "provider": "qwen",
-      "context_window_tokens": 262144,
-      "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.15,
-      "completion_cost_per_1m_usd": 1.2,
-      "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
       "model_id": "qwen/qwen3-next-80b-a3b-instruct",
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
       "provider": "qwen",
@@ -2086,17 +2075,6 @@
       "supports_structured_output": true
     },
     {
-      "model_id": "openai/o4-mini-high",
-      "name": "OpenAI: o4 Mini High",
-      "provider": "openai",
-      "context_window_tokens": 200000,
-      "max_output_tokens": 100000,
-      "prompt_cost_per_1m_usd": 1.1,
-      "completion_cost_per_1m_usd": 4.4,
-      "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
       "model_id": "openai/o3",
       "name": "OpenAI: o3",
       "provider": "openai",
@@ -2119,17 +2097,6 @@
       "supports_structured_output": true
     },
     {
-      "model_id": "openai/o4-mini",
-      "name": "OpenAI: o4 Mini",
-      "provider": "openai",
-      "context_window_tokens": 200000,
-      "max_output_tokens": 100000,
-      "prompt_cost_per_1m_usd": 1.1,
-      "completion_cost_per_1m_usd": 4.4,
-      "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
       "model_id": "openai/o4-mini:batch",
       "name": "OpenAI: o4 Mini (batch)",
       "provider": "openai",
@@ -2141,39 +2108,6 @@
       "supports_structured_output": true
     },
     {
-      "model_id": "openai/o1-pro",
-      "name": "OpenAI: o1-pro",
-      "provider": "openai",
-      "context_window_tokens": 200000,
-      "max_output_tokens": 100000,
-      "prompt_cost_per_1m_usd": 150.0,
-      "completion_cost_per_1m_usd": 600.0,
-      "supports_tools": false,
-      "supports_structured_output": true
-    },
-    {
-      "model_id": "openai/o3-mini-high",
-      "name": "OpenAI: o3 Mini High",
-      "provider": "openai",
-      "context_window_tokens": 200000,
-      "max_output_tokens": 100000,
-      "prompt_cost_per_1m_usd": 1.1,
-      "completion_cost_per_1m_usd": 4.4,
-      "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
-      "model_id": "openai/o3-mini",
-      "name": "OpenAI: o3 Mini",
-      "provider": "openai",
-      "context_window_tokens": 200000,
-      "max_output_tokens": 100000,
-      "prompt_cost_per_1m_usd": 1.1,
-      "completion_cost_per_1m_usd": 4.4,
-      "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
       "model_id": "openai/o3-mini:batch",
       "name": "OpenAI: o3 Mini (batch)",
       "provider": "openai",
@@ -2181,17 +2115,6 @@
       "max_output_tokens": 100000,
       "prompt_cost_per_1m_usd": 0.55,
       "completion_cost_per_1m_usd": 2.2,
-      "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
-      "model_id": "openai/o1",
-      "name": "OpenAI: o1",
-      "provider": "openai",
-      "context_window_tokens": 200000,
-      "max_output_tokens": 100000,
-      "prompt_cost_per_1m_usd": 15.0,
-      "completion_cost_per_1m_usd": 60.0,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2486,9 +2409,9 @@
       "name": "Meta: Llama 3.1 8B Instruct",
       "provider": "meta-llama",
       "context_window_tokens": 131072,
-      "max_output_tokens": 16384,
-      "prompt_cost_per_1m_usd": 0.02,
-      "completion_cost_per_1m_usd": 0.04,
+      "max_output_tokens": 117964,
+      "prompt_cost_per_1m_usd": 0.05,
+      "completion_cost_per_1m_usd": 0.08,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2654,17 +2577,6 @@
       "max_output_tokens": 16384,
       "prompt_cost_per_1m_usd": 1.25,
       "completion_cost_per_1m_usd": 5.0,
-      "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
-      "model_id": "openai/gpt-4-turbo",
-      "name": "OpenAI: GPT-4 Turbo",
-      "provider": "openai",
-      "context_window_tokens": 128000,
-      "max_output_tokens": 4096,
-      "prompt_cost_per_1m_usd": 10.0,
-      "completion_cost_per_1m_usd": 30.0,
       "supports_tools": true,
       "supports_structured_output": true
     },
