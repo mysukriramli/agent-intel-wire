@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-10-30T21:47:18.968557+00:00",
+    "generated_at": "2026-10-31T03:09:10.025855+00:00",
     "total_items": 255,
     "schema_version": "1.0.0"
   },
@@ -1705,9 +1705,9 @@
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
       "context_window_tokens": 262144,
-      "max_output_tokens": 81920,
-      "prompt_cost_per_1m_usd": 0.32,
-      "completion_cost_per_1m_usd": 3.2,
+      "max_output_tokens": 65536,
+      "prompt_cost_per_1m_usd": 0.45,
+      "completion_cost_per_1m_usd": 2.7,
       "supports_tools": true,
       "supports_structured_output": true
     },
