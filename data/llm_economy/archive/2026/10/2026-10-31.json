@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-10-31T16:29:36.188577+00:00",
+    "generated_at": "2026-10-31T20:47:00.910938+00:00",
     "total_items": 255,
     "schema_version": "1.0.0"
   },
@@ -594,9 +594,9 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.66,
-      "completion_cost_per_1m_usd": 1.98,
+      "max_output_tokens": 943718,
+      "prompt_cost_per_1m_usd": 0.115,
+      "completion_cost_per_1m_usd": 4.0,
       "supports_tools": true,
       "supports_structured_output": true
     },
