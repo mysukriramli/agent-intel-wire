@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-01T03:04:00.996193+00:00",
+    "generated_at": "2026-11-01T12:15:19.338192+00:00",
     "total_items": 255,
     "schema_version": "1.0.0"
   },
@@ -2267,8 +2267,8 @@
       "provider": "openai",
       "context_window_tokens": 131072,
       "max_output_tokens": 65536,
-      "prompt_cost_per_1m_usd": 0.15,
-      "completion_cost_per_1m_usd": 0.6,
+      "prompt_cost_per_1m_usd": 0.017,
+      "completion_cost_per_1m_usd": 0.065,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2288,9 +2288,9 @@
       "name": "OpenAI: gpt-oss-20b",
       "provider": "openai",
       "context_window_tokens": 131072,
-      "max_output_tokens": 32768,
-      "prompt_cost_per_1m_usd": 0.018,
-      "completion_cost_per_1m_usd": 0.09,
+      "max_output_tokens": 117964,
+      "prompt_cost_per_1m_usd": 0.03,
+      "completion_cost_per_1m_usd": 0.13,
       "supports_tools": true,
       "supports_structured_output": true
     },
