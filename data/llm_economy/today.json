@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-01T12:15:19.338192+00:00",
+    "generated_at": "2026-11-01T21:28:00.616007+00:00",
     "total_items": 255,
     "schema_version": "1.0.0"
   },
@@ -2267,8 +2267,8 @@
       "provider": "openai",
       "context_window_tokens": 131072,
       "max_output_tokens": 65536,
-      "prompt_cost_per_1m_usd": 0.017,
-      "completion_cost_per_1m_usd": 0.065,
+      "prompt_cost_per_1m_usd": 0.015,
+      "completion_cost_per_1m_usd": 0.054,
       "supports_tools": true,
       "supports_structured_output": true
     },
