@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-03T13:13:22.079683+00:00",
+    "generated_at": "2026-11-03T22:40:39.175106+00:00",
     "total_items": 255,
     "schema_version": "1.0.0"
   },
@@ -1717,8 +1717,8 @@
       "provider": "google",
       "context_window_tokens": 262144,
       "max_output_tokens": 32768,
-      "prompt_cost_per_1m_usd": 0.06,
-      "completion_cost_per_1m_usd": 0.179,
+      "prompt_cost_per_1m_usd": 0.072,
+      "completion_cost_per_1m_usd": 0.217,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1969,9 +1969,9 @@
       "name": "Qwen: Qwen3 235B A22B Instruct 2507",
       "provider": "qwen",
       "context_window_tokens": 262144,
-      "max_output_tokens": 16384,
-      "prompt_cost_per_1m_usd": 0.09,
-      "completion_cost_per_1m_usd": 0.55,
+      "max_output_tokens": 117964,
+      "prompt_cost_per_1m_usd": 0.14,
+      "completion_cost_per_1m_usd": 0.8,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2267,8 +2267,8 @@
       "provider": "openai",
       "context_window_tokens": 131072,
       "max_output_tokens": 65536,
-      "prompt_cost_per_1m_usd": 0.15,
-      "completion_cost_per_1m_usd": 0.6,
+      "prompt_cost_per_1m_usd": 0.02,
+      "completion_cost_per_1m_usd": 0.075,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2288,9 +2288,9 @@
       "name": "OpenAI: gpt-oss-20b",
       "provider": "openai",
       "context_window_tokens": 131072,
-      "max_output_tokens": 117964,
-      "prompt_cost_per_1m_usd": 0.03,
-      "completion_cost_per_1m_usd": 0.13,
+      "max_output_tokens": 32768,
+      "prompt_cost_per_1m_usd": 0.018,
+      "completion_cost_per_1m_usd": 0.09,
       "supports_tools": true,
       "supports_structured_output": true
     },
