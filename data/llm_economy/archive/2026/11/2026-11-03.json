@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-03T00:10:04.027690+00:00",
+    "generated_at": "2026-11-03T13:13:22.079683+00:00",
     "total_items": 255,
     "schema_version": "1.0.0"
   },
@@ -1717,8 +1717,8 @@
       "provider": "google",
       "context_window_tokens": 262144,
       "max_output_tokens": 32768,
-      "prompt_cost_per_1m_usd": 0.078,
-      "completion_cost_per_1m_usd": 0.233,
+      "prompt_cost_per_1m_usd": 0.06,
+      "completion_cost_per_1m_usd": 0.179,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2398,11 +2398,11 @@
       "name": "Meta: Llama 3.1 70B Instruct",
       "provider": "meta-llama",
       "context_window_tokens": 131072,
-      "max_output_tokens": 16384,
-      "prompt_cost_per_1m_usd": 0.4,
-      "completion_cost_per_1m_usd": 0.4,
-      "supports_tools": true,
-      "supports_structured_output": true
+      "max_output_tokens": 8192,
+      "prompt_cost_per_1m_usd": 0.72,
+      "completion_cost_per_1m_usd": 0.72,
+      "supports_tools": false,
+      "supports_structured_output": false
     },
     {
       "model_id": "meta-llama/llama-3.1-8b-instruct",
