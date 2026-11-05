@@ -1,8 +1,8 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-05T13:40:41.650662+00:00",
-    "total_items": 255,
+    "generated_at": "2026-11-05T23:00:17.213191+00:00",
+    "total_items": 257,
     "schema_version": "1.0.0"
   },
   "models": [
@@ -606,7 +606,7 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.0566,
+      "prompt_cost_per_1m_usd": 0.0434,
       "completion_cost_per_1m_usd": 0.3,
       "supports_tools": true,
       "supports_structured_output": true
@@ -1716,9 +1716,9 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "context_window_tokens": 262144,
-      "max_output_tokens": 32768,
-      "prompt_cost_per_1m_usd": 0.058,
-      "completion_cost_per_1m_usd": 0.174,
+      "max_output_tokens": 235929,
+      "prompt_cost_per_1m_usd": 0.0765,
+      "completion_cost_per_1m_usd": 0.255,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2207,6 +2207,28 @@
       "supports_structured_output": true
     },
     {
+      "model_id": "google/gemini-omni-1.2-flash",
+      "name": "Google: Gemini Omni 1.2 Flash",
+      "provider": "google",
+      "context_window_tokens": 131072,
+      "max_output_tokens": 65536,
+      "prompt_cost_per_1m_usd": 1.5,
+      "completion_cost_per_1m_usd": 9.0,
+      "supports_tools": false,
+      "supports_structured_output": false
+    },
+    {
+      "model_id": "google/gemini-omni-1.1-flash",
+      "name": "Google: Gemini Omni 1.1 Flash",
+      "provider": "google",
+      "context_window_tokens": 131072,
+      "max_output_tokens": 65536,
+      "prompt_cost_per_1m_usd": 1.5,
+      "completion_cost_per_1m_usd": 9.0,
+      "supports_tools": false,
+      "supports_structured_output": false
+    },
+    {
       "model_id": "google/gemini-3.1-flash-image",
       "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
       "provider": "google",
@@ -2365,9 +2387,9 @@
       "name": "Meta: Llama 3.3 70B Instruct",
       "provider": "meta-llama",
       "context_window_tokens": 131072,
-      "max_output_tokens": 128000,
-      "prompt_cost_per_1m_usd": 0.2,
-      "completion_cost_per_1m_usd": 0.52,
+      "max_output_tokens": 32768,
+      "prompt_cost_per_1m_usd": 0.59,
+      "completion_cost_per_1m_usd": 0.79,
       "supports_tools": true,
       "supports_structured_output": true
     },
