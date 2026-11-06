@@ -1,8 +1,8 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-06T13:24:57.658046+00:00",
-    "total_items": 257,
+    "generated_at": "2026-11-06T22:29:58.580717+00:00",
+    "total_items": 259,
     "schema_version": "1.0.0"
   },
   "models": [
@@ -606,8 +606,19 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.059,
+      "prompt_cost_per_1m_usd": 0.0434,
       "completion_cost_per_1m_usd": 0.3,
+      "supports_tools": true,
+      "supports_structured_output": true
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash-0731:batch",
+      "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+      "provider": "deepseek",
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 384000,
+      "prompt_cost_per_1m_usd": 0.048,
+      "completion_cost_per_1m_usd": 0.144,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -705,8 +716,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 384000,
-      "prompt_cost_per_1m_usd": 0.894,
-      "completion_cost_per_1m_usd": 1.788,
+      "prompt_cost_per_1m_usd": 0.7197,
+      "completion_cost_per_1m_usd": 1.4393,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1657,6 +1668,17 @@
       "supports_structured_output": true
     },
     {
+      "model_id": "qwen/qwen3.8-27b:batch",
+      "name": "Qwen: Qwen3.8 27B (batch)",
+      "provider": "qwen",
+      "context_window_tokens": 262144,
+      "max_output_tokens": 235929,
+      "prompt_cost_per_1m_usd": 0.16,
+      "completion_cost_per_1m_usd": 2.0,
+      "supports_tools": true,
+      "supports_structured_output": true
+    },
+    {
       "model_id": "qwen/qwen3.7-plus:batch",
       "name": "Qwen: Qwen3.7 Plus (batch)",
       "provider": "qwen",
@@ -1717,8 +1739,8 @@
       "provider": "google",
       "context_window_tokens": 262144,
       "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.09,
-      "completion_cost_per_1m_usd": 0.3,
+      "prompt_cost_per_1m_usd": 0.0675,
+      "completion_cost_per_1m_usd": 0.225,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2289,8 +2311,8 @@
       "provider": "openai",
       "context_window_tokens": 131072,
       "max_output_tokens": 65536,
-      "prompt_cost_per_1m_usd": 0.023,
-      "completion_cost_per_1m_usd": 0.085,
+      "prompt_cost_per_1m_usd": 0.012,
+      "completion_cost_per_1m_usd": 0.046,
       "supports_tools": true,
       "supports_structured_output": true
     },
