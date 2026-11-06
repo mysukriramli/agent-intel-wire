@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-05T23:00:17.213191+00:00",
+    "generated_at": "2026-11-06T04:03:56.855169+00:00",
     "total_items": 257,
     "schema_version": "1.0.0"
   },
@@ -550,9 +550,9 @@
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 262144,
-      "prompt_cost_per_1m_usd": 0.2156,
-      "completion_cost_per_1m_usd": 0.6468,
+      "max_output_tokens": 943717,
+      "prompt_cost_per_1m_usd": 0.44,
+      "completion_cost_per_1m_usd": 1.32,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -606,7 +606,7 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.0434,
+      "prompt_cost_per_1m_usd": 0.059,
       "completion_cost_per_1m_usd": 0.3,
       "supports_tools": true,
       "supports_structured_output": true
@@ -704,9 +704,9 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 1.6,
-      "completion_cost_per_1m_usd": 3.2,
+      "max_output_tokens": 384000,
+      "prompt_cost_per_1m_usd": 0.9553,
+      "completion_cost_per_1m_usd": 1.9105,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2289,8 +2289,8 @@
       "provider": "openai",
       "context_window_tokens": 131072,
       "max_output_tokens": 65536,
-      "prompt_cost_per_1m_usd": 0.15,
-      "completion_cost_per_1m_usd": 0.6,
+      "prompt_cost_per_1m_usd": 0.016,
+      "completion_cost_per_1m_usd": 0.058,
       "supports_tools": true,
       "supports_structured_output": true
     },
