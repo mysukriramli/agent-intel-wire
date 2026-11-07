@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-07T12:03:38.284924+00:00",
+    "generated_at": "2026-11-07T21:13:24.951344+00:00",
     "total_items": 259,
     "schema_version": "1.0.0"
   },
@@ -595,8 +595,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.1165,
-      "completion_cost_per_1m_usd": 4.66,
+      "prompt_cost_per_1m_usd": 0.111,
+      "completion_cost_per_1m_usd": 4.44,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -606,7 +606,7 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.0487,
+      "prompt_cost_per_1m_usd": 0.0434,
       "completion_cost_per_1m_usd": 0.3,
       "supports_tools": true,
       "supports_structured_output": true
@@ -716,8 +716,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 384000,
-      "prompt_cost_per_1m_usd": 0.7383,
-      "completion_cost_per_1m_usd": 1.4766,
+      "prompt_cost_per_1m_usd": 0.5457,
+      "completion_cost_per_1m_usd": 1.0913,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2311,8 +2311,8 @@
       "provider": "openai",
       "context_window_tokens": 131072,
       "max_output_tokens": 65536,
-      "prompt_cost_per_1m_usd": 0.017,
-      "completion_cost_per_1m_usd": 0.063,
+      "prompt_cost_per_1m_usd": 0.019,
+      "completion_cost_per_1m_usd": 0.069,
       "supports_tools": true,
       "supports_structured_output": true
     },
