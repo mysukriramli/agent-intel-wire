@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-08T21:27:56.812263+00:00",
+    "generated_at": "2026-11-09T03:33:37.055891+00:00",
     "total_items": 260,
     "schema_version": "1.0.0"
   },
@@ -727,8 +727,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 384000,
-      "prompt_cost_per_1m_usd": 0.2088,
-      "completion_cost_per_1m_usd": 0.4176,
+      "prompt_cost_per_1m_usd": 0.9553,
+      "completion_cost_per_1m_usd": 1.9105,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1848,8 +1848,8 @@
       "name": "Qwen: Qwen3.5 397B A17B",
       "provider": "qwen",
       "context_window_tokens": 262144,
-      "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.5,
+      "max_output_tokens": 64000,
+      "prompt_cost_per_1m_usd": 0.6,
       "completion_cost_per_1m_usd": 3.6,
       "supports_tools": true,
       "supports_structured_output": true
@@ -2322,8 +2322,8 @@
       "provider": "openai",
       "context_window_tokens": 131072,
       "max_output_tokens": 65536,
-      "prompt_cost_per_1m_usd": 0.017,
-      "completion_cost_per_1m_usd": 0.064,
+      "prompt_cost_per_1m_usd": 0.15,
+      "completion_cost_per_1m_usd": 0.6,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2411,7 +2411,7 @@
       "context_window_tokens": 131072,
       "max_output_tokens": 117964,
       "prompt_cost_per_1m_usd": 0.08,
-      "completion_cost_per_1m_usd": 0.35,
+      "completion_cost_per_1m_usd": 0.45,
       "supports_tools": true,
       "supports_structured_output": true
     },
