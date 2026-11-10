@@ -1,8 +1,8 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-09T14:38:44.295364+00:00",
-    "total_items": 261,
+    "generated_at": "2026-11-10T00:57:32.708786+00:00",
+    "total_items": 263,
     "schema_version": "1.0.0"
   },
   "models": [
@@ -528,9 +528,9 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.011,
-      "completion_cost_per_1m_usd": 0.2,
+      "max_output_tokens": 131072,
+      "prompt_cost_per_1m_usd": 0.112,
+      "completion_cost_per_1m_usd": 0.336,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -727,8 +727,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 384000,
-      "prompt_cost_per_1m_usd": 0.894,
-      "completion_cost_per_1m_usd": 1.788,
+      "prompt_cost_per_1m_usd": 0.9553,
+      "completion_cost_per_1m_usd": 1.9105,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -949,6 +949,28 @@
       "max_output_tokens": 235929,
       "prompt_cost_per_1m_usd": 0.15,
       "completion_cost_per_1m_usd": 1.875,
+      "supports_tools": true,
+      "supports_structured_output": true
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.2",
+      "name": "Anthropic: Claude Fable 5.2",
+      "provider": "anthropic",
+      "context_window_tokens": 1000000,
+      "max_output_tokens": 128000,
+      "prompt_cost_per_1m_usd": 8.0,
+      "completion_cost_per_1m_usd": 40.0,
+      "supports_tools": true,
+      "supports_structured_output": true
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.2:batch",
+      "name": "Anthropic: Claude Fable 5.2 (batch)",
+      "provider": "anthropic",
+      "context_window_tokens": 1000000,
+      "max_output_tokens": 128000,
+      "prompt_cost_per_1m_usd": 4.0,
+      "completion_cost_per_1m_usd": 20.0,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1760,9 +1782,9 @@
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
       "context_window_tokens": 262144,
-      "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.09,
-      "completion_cost_per_1m_usd": 0.3,
+      "max_output_tokens": 128000,
+      "prompt_cost_per_1m_usd": 0.08,
+      "completion_cost_per_1m_usd": 0.1,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2431,9 +2453,9 @@
       "name": "Meta: Llama 3.3 70B Instruct",
       "provider": "meta-llama",
       "context_window_tokens": 131072,
-      "max_output_tokens": 32768,
-      "prompt_cost_per_1m_usd": 0.59,
-      "completion_cost_per_1m_usd": 0.79,
+      "max_output_tokens": 115200,
+      "prompt_cost_per_1m_usd": 0.71,
+      "completion_cost_per_1m_usd": 0.71,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2750,9 +2772,9 @@
       "name": "Qwen: Qwen3 14B",
       "provider": "qwen",
       "context_window_tokens": 40960,
-      "max_output_tokens": 16384,
-      "prompt_cost_per_1m_usd": 0.12,
-      "completion_cost_per_1m_usd": 0.24,
+      "max_output_tokens": 36864,
+      "prompt_cost_per_1m_usd": 0.1,
+      "completion_cost_per_1m_usd": 0.22,
       "supports_tools": true,
       "supports_structured_output": true
     },
