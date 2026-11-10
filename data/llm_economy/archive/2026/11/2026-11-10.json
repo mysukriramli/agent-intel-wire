@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-10T00:57:32.708786+00:00",
+    "generated_at": "2026-11-10T13:55:32.695169+00:00",
     "total_items": 263,
     "schema_version": "1.0.0"
   },
@@ -518,8 +518,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.051,
-      "completion_cost_per_1m_usd": 0.567,
+      "prompt_cost_per_1m_usd": 0.006,
+      "completion_cost_per_1m_usd": 0.5,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -876,6 +876,17 @@
       "supports_structured_output": true
     },
     {
+      "model_id": "qwen/qwen3.8-27b",
+      "name": "Qwen: Qwen3.8 27B",
+      "provider": "qwen",
+      "context_window_tokens": 1048575,
+      "max_output_tokens": 235929,
+      "prompt_cost_per_1m_usd": 0.15,
+      "completion_cost_per_1m_usd": 1.875,
+      "supports_tools": true,
+      "supports_structured_output": true
+    },
+    {
       "model_id": "openai/gpt-4.1",
       "name": "OpenAI: GPT-4.1",
       "provider": "openai",
@@ -938,17 +949,6 @@
       "max_output_tokens": 32768,
       "prompt_cost_per_1m_usd": 0.05,
       "completion_cost_per_1m_usd": 0.2,
-      "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
-      "model_id": "qwen/qwen3.8-27b",
-      "name": "Qwen: Qwen3.8 27B",
-      "provider": "qwen",
-      "context_window_tokens": 1024000,
-      "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.15,
-      "completion_cost_per_1m_usd": 1.875,
       "supports_tools": true,
       "supports_structured_output": true
     },
