@@ -1,8 +1,8 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-10T13:55:32.695169+00:00",
-    "total_items": 263,
+    "generated_at": "2026-11-10T22:38:31.897891+00:00",
+    "total_items": 265,
     "schema_version": "1.0.0"
   },
   "models": [
@@ -458,6 +458,28 @@
       "supports_structured_output": true
     },
     {
+      "model_id": "google/gemini-4-carbon",
+      "name": "Google: Gemini 4 Carbon",
+      "provider": "google",
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 943718,
+      "prompt_cost_per_1m_usd": 2.0,
+      "completion_cost_per_1m_usd": 10.0,
+      "supports_tools": true,
+      "supports_structured_output": true
+    },
+    {
+      "model_id": "google/gemini-4-carbon:batch",
+      "name": "Google: Gemini 4 Carbon (batch)",
+      "provider": "google",
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 943718,
+      "prompt_cost_per_1m_usd": 1.0,
+      "completion_cost_per_1m_usd": 5.0,
+      "supports_tools": true,
+      "supports_structured_output": true
+    },
+    {
       "model_id": "deepseek/deepseek-v4.1-flash-1017",
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
       "provider": "deepseek",
@@ -518,8 +540,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.006,
-      "completion_cost_per_1m_usd": 0.5,
+      "prompt_cost_per_1m_usd": 0.3,
+      "completion_cost_per_1m_usd": 1.2,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -727,8 +749,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 384000,
-      "prompt_cost_per_1m_usd": 0.9553,
-      "completion_cost_per_1m_usd": 1.9105,
+      "prompt_cost_per_1m_usd": 0.8872,
+      "completion_cost_per_1m_usd": 1.7745,
       "supports_tools": true,
       "supports_structured_output": true
     },
