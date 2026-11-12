@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-12T04:48:16.072051+00:00",
+    "generated_at": "2026-11-12T14:12:41.021955+00:00",
     "total_items": 264,
     "schema_version": "1.0.0"
   },
@@ -495,10 +495,10 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.011,
-      "completion_cost_per_1m_usd": 0.2,
-      "supports_tools": true,
+      "max_output_tokens": 384000,
+      "prompt_cost_per_1m_usd": 0.05,
+      "completion_cost_per_1m_usd": 0.15,
+      "supports_tools": false,
       "supports_structured_output": false
     },
     {
@@ -540,8 +540,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.022,
-      "completion_cost_per_1m_usd": 0.4,
+      "prompt_cost_per_1m_usd": 0.3,
+      "completion_cost_per_1m_usd": 1.2,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -749,8 +749,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 384000,
-      "prompt_cost_per_1m_usd": 0.9553,
-      "completion_cost_per_1m_usd": 1.9105,
+      "prompt_cost_per_1m_usd": 0.8923,
+      "completion_cost_per_1m_usd": 1.7845,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1860,8 +1860,8 @@
       "provider": "qwen",
       "context_window_tokens": 262144,
       "max_output_tokens": 40960,
-      "prompt_cost_per_1m_usd": 0.071,
-      "completion_cost_per_1m_usd": 0.105,
+      "prompt_cost_per_1m_usd": 0.146,
+      "completion_cost_per_1m_usd": 0.215,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2794,9 +2794,9 @@
       "name": "Qwen: Qwen3 14B",
       "provider": "qwen",
       "context_window_tokens": 40960,
-      "max_output_tokens": 36864,
-      "prompt_cost_per_1m_usd": 0.1,
-      "completion_cost_per_1m_usd": 0.22,
+      "max_output_tokens": 16384,
+      "prompt_cost_per_1m_usd": 0.12,
+      "completion_cost_per_1m_usd": 0.24,
       "supports_tools": true,
       "supports_structured_output": true
     },
