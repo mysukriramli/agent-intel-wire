@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-13T13:36:07.445694+00:00",
+    "generated_at": "2026-11-13T22:59:35.186897+00:00",
     "total_items": 266,
     "schema_version": "1.0.0"
   },
@@ -506,9 +506,9 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.038,
-      "completion_cost_per_1m_usd": 0.5,
+      "max_output_tokens": 393216,
+      "prompt_cost_per_1m_usd": 0.15,
+      "completion_cost_per_1m_usd": 0.6,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -561,9 +561,9 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.0507,
-      "completion_cost_per_1m_usd": 0.2028,
+      "max_output_tokens": 943718,
+      "prompt_cost_per_1m_usd": 0.3,
+      "completion_cost_per_1m_usd": 1.2,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1827,8 +1827,8 @@
       "provider": "google",
       "context_window_tokens": 262144,
       "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.09,
-      "completion_cost_per_1m_usd": 0.3,
+      "prompt_cost_per_1m_usd": 0.0675,
+      "completion_cost_per_1m_usd": 0.225,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1882,8 +1882,8 @@
       "provider": "qwen",
       "context_window_tokens": 262144,
       "max_output_tokens": 40960,
-      "prompt_cost_per_1m_usd": 0.021,
-      "completion_cost_per_1m_usd": 0.031,
+      "prompt_cost_per_1m_usd": 0.149,
+      "completion_cost_per_1m_usd": 0.219,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2310,9 +2310,9 @@
       "name": "DeepSeek: DeepSeek V3",
       "provider": "deepseek",
       "context_window_tokens": 163840,
-      "max_output_tokens": 16384,
-      "prompt_cost_per_1m_usd": 0.32,
-      "completion_cost_per_1m_usd": 0.89,
+      "max_output_tokens": 16000,
+      "prompt_cost_per_1m_usd": 0.2574,
+      "completion_cost_per_1m_usd": 1.0287,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2519,9 +2519,9 @@
       "name": "Meta: Llama 3.2 3B Instruct",
       "provider": "meta-llama",
       "context_window_tokens": 131072,
-      "max_output_tokens": 117964,
-      "prompt_cost_per_1m_usd": 0.05,
-      "completion_cost_per_1m_usd": 0.33,
+      "max_output_tokens": 72000,
+      "prompt_cost_per_1m_usd": 0.0509,
+      "completion_cost_per_1m_usd": 0.335,
       "supports_tools": false,
       "supports_structured_output": false
     },
