@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-14T12:40:38.720274+00:00",
+    "generated_at": "2026-11-14T21:47:53.628287+00:00",
     "total_items": 266,
     "schema_version": "1.0.0"
   },
@@ -1882,8 +1882,8 @@
       "provider": "qwen",
       "context_window_tokens": 262144,
       "max_output_tokens": 40960,
-      "prompt_cost_per_1m_usd": 0.17,
-      "completion_cost_per_1m_usd": 0.25,
+      "prompt_cost_per_1m_usd": 0.109,
+      "completion_cost_per_1m_usd": 0.16,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2277,9 +2277,9 @@
       "name": "DeepSeek: R1 0528",
       "provider": "deepseek",
       "context_window_tokens": 163840,
-      "max_output_tokens": 32768,
-      "prompt_cost_per_1m_usd": 0.5,
-      "completion_cost_per_1m_usd": 2.15,
+      "max_output_tokens": 32000,
+      "prompt_cost_per_1m_usd": 0.571,
+      "completion_cost_per_1m_usd": 2.286,
       "supports_tools": true,
       "supports_structured_output": true
     },
