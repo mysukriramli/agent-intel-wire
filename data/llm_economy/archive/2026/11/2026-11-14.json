@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-14T03:57:24.258126+00:00",
+    "generated_at": "2026-11-14T12:40:38.720274+00:00",
     "total_items": 266,
     "schema_version": "1.0.0"
   },
@@ -520,8 +520,8 @@
       "max_output_tokens": 384000,
       "prompt_cost_per_1m_usd": 0.05,
       "completion_cost_per_1m_usd": 0.15,
-      "supports_tools": false,
-      "supports_structured_output": false
+      "supports_tools": true,
+      "supports_structured_output": true
     },
     {
       "model_id": "google/gemini-4-argon",
@@ -1882,8 +1882,8 @@
       "provider": "qwen",
       "context_window_tokens": 262144,
       "max_output_tokens": 40960,
-      "prompt_cost_per_1m_usd": 0.138,
-      "completion_cost_per_1m_usd": 0.203,
+      "prompt_cost_per_1m_usd": 0.17,
+      "completion_cost_per_1m_usd": 0.25,
       "supports_tools": true,
       "supports_structured_output": true
     },
