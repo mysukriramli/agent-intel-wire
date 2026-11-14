@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-13T22:59:35.186897+00:00",
+    "generated_at": "2026-11-14T03:57:24.258126+00:00",
     "total_items": 266,
     "schema_version": "1.0.0"
   },
@@ -353,8 +353,8 @@
       "provider": "openai",
       "context_window_tokens": 1050000,
       "max_output_tokens": 128000,
-      "prompt_cost_per_1m_usd": 4.4,
-      "completion_cost_per_1m_usd": 22.0,
+      "prompt_cost_per_1m_usd": 4.0,
+      "completion_cost_per_1m_usd": 20.0,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -506,9 +506,9 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.15,
-      "completion_cost_per_1m_usd": 0.6,
+      "max_output_tokens": 943718,
+      "prompt_cost_per_1m_usd": 0.038,
+      "completion_cost_per_1m_usd": 0.5,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -561,9 +561,9 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.3,
-      "completion_cost_per_1m_usd": 1.2,
+      "max_output_tokens": 393216,
+      "prompt_cost_per_1m_usd": 0.0507,
+      "completion_cost_per_1m_usd": 0.2028,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -920,17 +920,6 @@
       "supports_structured_output": true
     },
     {
-      "model_id": "qwen/qwen3.8-27b",
-      "name": "Qwen: Qwen3.8 27B",
-      "provider": "qwen",
-      "context_window_tokens": 1048575,
-      "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.15,
-      "completion_cost_per_1m_usd": 1.875,
-      "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
       "model_id": "openai/gpt-4.1",
       "name": "OpenAI: GPT-4.1",
       "provider": "openai",
@@ -993,6 +982,17 @@
       "max_output_tokens": 32768,
       "prompt_cost_per_1m_usd": 0.05,
       "completion_cost_per_1m_usd": 0.2,
+      "supports_tools": true,
+      "supports_structured_output": true
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "name": "Qwen: Qwen3.8 27B",
+      "provider": "qwen",
+      "context_window_tokens": 1024000,
+      "max_output_tokens": 235929,
+      "prompt_cost_per_1m_usd": 0.15,
+      "completion_cost_per_1m_usd": 1.875,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1882,8 +1882,8 @@
       "provider": "qwen",
       "context_window_tokens": 262144,
       "max_output_tokens": 40960,
-      "prompt_cost_per_1m_usd": 0.149,
-      "completion_cost_per_1m_usd": 0.219,
+      "prompt_cost_per_1m_usd": 0.138,
+      "completion_cost_per_1m_usd": 0.203,
       "supports_tools": true,
       "supports_structured_output": true
     },
