@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-15T13:07:34.134104+00:00",
+    "generated_at": "2026-11-15T22:15:40.311236+00:00",
     "total_items": 265,
     "schema_version": "1.0.0"
   },
@@ -506,9 +506,9 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.15,
-      "completion_cost_per_1m_usd": 0.6,
+      "max_output_tokens": 384000,
+      "prompt_cost_per_1m_usd": 0.02,
+      "completion_cost_per_1m_usd": 0.108,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -519,7 +519,7 @@
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
       "prompt_cost_per_1m_usd": 0.036,
-      "completion_cost_per_1m_usd": 0.318,
+      "completion_cost_per_1m_usd": 0.319,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1882,8 +1882,8 @@
       "provider": "qwen",
       "context_window_tokens": 262144,
       "max_output_tokens": 40960,
-      "prompt_cost_per_1m_usd": 0.023,
-      "completion_cost_per_1m_usd": 0.034,
+      "prompt_cost_per_1m_usd": 0.098,
+      "completion_cost_per_1m_usd": 0.144,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2409,9 +2409,9 @@
       "name": "OpenAI: gpt-oss-20b",
       "provider": "openai",
       "context_window_tokens": 131072,
-      "max_output_tokens": 117964,
-      "prompt_cost_per_1m_usd": 0.03,
-      "completion_cost_per_1m_usd": 0.13,
+      "max_output_tokens": 65536,
+      "prompt_cost_per_1m_usd": 0.075,
+      "completion_cost_per_1m_usd": 0.3,
       "supports_tools": true,
       "supports_structured_output": true
     },
