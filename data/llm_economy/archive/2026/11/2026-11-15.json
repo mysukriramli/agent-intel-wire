@@ -1,8 +1,8 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-15T03:41:27.566284+00:00",
-    "total_items": 266,
+    "generated_at": "2026-11-15T13:07:34.134104+00:00",
+    "total_items": 265,
     "schema_version": "1.0.0"
   },
   "models": [
@@ -506,9 +506,9 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.038,
-      "completion_cost_per_1m_usd": 0.5,
+      "max_output_tokens": 393216,
+      "prompt_cost_per_1m_usd": 0.15,
+      "completion_cost_per_1m_usd": 0.6,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -518,8 +518,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.048,
-      "completion_cost_per_1m_usd": 0.27,
+      "prompt_cost_per_1m_usd": 0.036,
+      "completion_cost_per_1m_usd": 0.318,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -660,9 +660,9 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 384000,
-      "prompt_cost_per_1m_usd": 0.06,
-      "completion_cost_per_1m_usd": 0.18,
+      "max_output_tokens": 943718,
+      "prompt_cost_per_1m_usd": 0.0434,
+      "completion_cost_per_1m_usd": 0.3,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1882,8 +1882,8 @@
       "provider": "qwen",
       "context_window_tokens": 262144,
       "max_output_tokens": 40960,
-      "prompt_cost_per_1m_usd": 0.08,
-      "completion_cost_per_1m_usd": 0.117,
+      "prompt_cost_per_1m_usd": 0.023,
+      "completion_cost_per_1m_usd": 0.034,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1998,17 +1998,6 @@
       "supports_structured_output": true
     },
     {
-      "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
-      "name": "Qwen: Qwen3 VL 30B A3B Thinking",
-      "provider": "qwen",
-      "context_window_tokens": 262144,
-      "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.29,
-      "completion_cost_per_1m_usd": 1.0,
-      "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
       "model_id": "qwen/qwen3-vl-30b-a3b-instruct",
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
       "provider": "qwen",
@@ -2050,7 +2039,7 @@
       "prompt_cost_per_1m_usd": 0.15,
       "completion_cost_per_1m_usd": 0.6,
       "supports_tools": true,
-      "supports_structured_output": true
+      "supports_structured_output": false
     },
     {
       "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
@@ -2277,9 +2266,9 @@
       "name": "DeepSeek: R1 0528",
       "provider": "deepseek",
       "context_window_tokens": 163840,
-      "max_output_tokens": 32000,
-      "prompt_cost_per_1m_usd": 0.571,
-      "completion_cost_per_1m_usd": 2.286,
+      "max_output_tokens": 32768,
+      "prompt_cost_per_1m_usd": 0.5,
+      "completion_cost_per_1m_usd": 2.15,
       "supports_tools": true,
       "supports_structured_output": true
     },
