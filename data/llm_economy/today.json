@@ -1,8 +1,8 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-18T14:46:02.483800+00:00",
-    "total_items": 274,
+    "generated_at": "2026-11-18T23:41:42.413317+00:00",
+    "total_items": 276,
     "schema_version": "1.0.0"
   },
   "models": [
@@ -546,6 +546,28 @@
       "supports_structured_output": true
     },
     {
+      "model_id": "google/gemini-4-neon",
+      "name": "Google: Gemini 4 Neon",
+      "provider": "google",
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 943718,
+      "prompt_cost_per_1m_usd": 3.0,
+      "completion_cost_per_1m_usd": 15.0,
+      "supports_tools": true,
+      "supports_structured_output": true
+    },
+    {
+      "model_id": "google/gemini-4-neon:batch",
+      "name": "Google: Gemini 4 Neon (batch)",
+      "provider": "google",
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 943718,
+      "prompt_cost_per_1m_usd": 1.5,
+      "completion_cost_per_1m_usd": 7.5,
+      "supports_tools": true,
+      "supports_structured_output": true
+    },
+    {
       "model_id": "google/gemini-4-hydrogen",
       "name": "Google: Gemini 4 Hydrogen",
       "provider": "google",
@@ -595,8 +617,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.036,
-      "completion_cost_per_1m_usd": 0.5,
+      "prompt_cost_per_1m_usd": 0.035,
+      "completion_cost_per_1m_usd": 0.15,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -649,9 +671,9 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.0507,
-      "completion_cost_per_1m_usd": 0.2028,
+      "max_output_tokens": 943718,
+      "prompt_cost_per_1m_usd": 0.051,
+      "completion_cost_per_1m_usd": 0.567,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1926,8 +1948,8 @@
       "provider": "google",
       "context_window_tokens": 262144,
       "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.09,
-      "completion_cost_per_1m_usd": 0.3,
+      "prompt_cost_per_1m_usd": 0.0765,
+      "completion_cost_per_1m_usd": 0.255,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1981,8 +2003,8 @@
       "provider": "qwen",
       "context_window_tokens": 262144,
       "max_output_tokens": 40960,
-      "prompt_cost_per_1m_usd": 0.17,
-      "completion_cost_per_1m_usd": 0.25,
+      "prompt_cost_per_1m_usd": 0.142,
+      "completion_cost_per_1m_usd": 0.21,
       "supports_tools": true,
       "supports_structured_output": true
     },
