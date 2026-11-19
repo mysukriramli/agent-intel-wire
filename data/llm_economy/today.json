@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-19T14:52:30.595355+00:00",
+    "generated_at": "2026-11-19T23:59:46.154472+00:00",
     "total_items": 276,
     "schema_version": "1.0.0"
   },
@@ -616,9 +616,9 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.15,
-      "completion_cost_per_1m_usd": 0.6,
+      "max_output_tokens": 943718,
+      "prompt_cost_per_1m_usd": 0.036,
+      "completion_cost_per_1m_usd": 0.5,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -671,9 +671,9 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.0507,
-      "completion_cost_per_1m_usd": 0.2028,
+      "max_output_tokens": 943718,
+      "prompt_cost_per_1m_usd": 0.051,
+      "completion_cost_per_1m_usd": 0.567,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -760,8 +760,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.111,
-      "completion_cost_per_1m_usd": 4.44,
+      "prompt_cost_per_1m_usd": 0.22,
+      "completion_cost_per_1m_usd": 9.5,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -771,7 +771,7 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.062,
+      "prompt_cost_per_1m_usd": 0.1,
       "completion_cost_per_1m_usd": 0.3,
       "supports_tools": true,
       "supports_structured_output": true
@@ -1948,8 +1948,8 @@
       "provider": "google",
       "context_window_tokens": 262144,
       "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.09,
-      "completion_cost_per_1m_usd": 0.3,
+      "prompt_cost_per_1m_usd": 0.0765,
+      "completion_cost_per_1m_usd": 0.255,
       "supports_tools": true,
       "supports_structured_output": true
     },
