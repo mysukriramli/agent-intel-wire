@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-19T23:59:46.154472+00:00",
+    "generated_at": "2026-11-20T06:07:06.023061+00:00",
     "total_items": 276,
     "schema_version": "1.0.0"
   },
@@ -616,9 +616,9 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.036,
-      "completion_cost_per_1m_usd": 0.5,
+      "max_output_tokens": 393216,
+      "prompt_cost_per_1m_usd": 0.3,
+      "completion_cost_per_1m_usd": 1.2,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -628,8 +628,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.036,
-      "completion_cost_per_1m_usd": 0.15,
+      "prompt_cost_per_1m_usd": 0.035,
+      "completion_cost_per_1m_usd": 0.149,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -672,8 +672,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.051,
-      "completion_cost_per_1m_usd": 0.567,
+      "prompt_cost_per_1m_usd": 0.3,
+      "completion_cost_per_1m_usd": 1.2,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -682,9 +682,9 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 131072,
-      "prompt_cost_per_1m_usd": 0.112,
-      "completion_cost_per_1m_usd": 0.336,
+      "max_output_tokens": 384000,
+      "prompt_cost_per_1m_usd": 0.05,
+      "completion_cost_per_1m_usd": 0.15,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -760,8 +760,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.22,
-      "completion_cost_per_1m_usd": 9.5,
+      "prompt_cost_per_1m_usd": 1.32,
+      "completion_cost_per_1m_usd": 3.96,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -771,7 +771,7 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.1,
+      "prompt_cost_per_1m_usd": 0.047,
       "completion_cost_per_1m_usd": 0.3,
       "supports_tools": true,
       "supports_structured_output": true
@@ -1948,8 +1948,8 @@
       "provider": "google",
       "context_window_tokens": 262144,
       "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.0765,
-      "completion_cost_per_1m_usd": 0.255,
+      "prompt_cost_per_1m_usd": 0.09,
+      "completion_cost_per_1m_usd": 0.3,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2024,9 +2024,9 @@
       "name": "Qwen: Qwen3.5-27B",
       "provider": "qwen",
       "context_window_tokens": 262144,
-      "max_output_tokens": 65536,
-      "prompt_cost_per_1m_usd": 0.195,
-      "completion_cost_per_1m_usd": 1.56,
+      "max_output_tokens": 81920,
+      "prompt_cost_per_1m_usd": 0.26,
+      "completion_cost_per_1m_usd": 2.6,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2508,9 +2508,9 @@
       "name": "OpenAI: gpt-oss-120b",
       "provider": "openai",
       "context_window_tokens": 131072,
-      "max_output_tokens": 65536,
-      "prompt_cost_per_1m_usd": 0.15,
-      "completion_cost_per_1m_usd": 0.6,
+      "max_output_tokens": 117964,
+      "prompt_cost_per_1m_usd": 0.09,
+      "completion_cost_per_1m_usd": 0.36,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2629,9 +2629,9 @@
       "name": "Meta: Llama 3.2 3B Instruct",
       "provider": "meta-llama",
       "context_window_tokens": 131072,
-      "max_output_tokens": 72000,
-      "prompt_cost_per_1m_usd": 0.0509,
-      "completion_cost_per_1m_usd": 0.335,
+      "max_output_tokens": 117964,
+      "prompt_cost_per_1m_usd": 0.05,
+      "completion_cost_per_1m_usd": 0.33,
       "supports_tools": false,
       "supports_structured_output": false
     },
@@ -2667,6 +2667,17 @@
       "completion_cost_per_1m_usd": 0.03,
       "supports_tools": true,
       "supports_structured_output": true
+    },
+    {
+      "model_id": "mistralai/pixtral-large-2502",
+      "name": "Mistral: Pixtral Large 2502",
+      "provider": "mistralai",
+      "context_window_tokens": 128000,
+      "max_output_tokens": 102400,
+      "prompt_cost_per_1m_usd": 2.0,
+      "completion_cost_per_1m_usd": 6.0,
+      "supports_tools": false,
+      "supports_structured_output": false
     },
     {
       "model_id": "openai/gpt-audio",
@@ -2898,17 +2909,6 @@
       "completion_cost_per_1m_usd": 6.0,
       "supports_tools": true,
       "supports_structured_output": true
-    },
-    {
-      "model_id": "meta-llama/llama-3.2-1b-instruct",
-      "name": "Meta: Llama 3.2 1B Instruct",
-      "provider": "meta-llama",
-      "context_window_tokens": 60000,
-      "max_output_tokens": 54000,
-      "prompt_cost_per_1m_usd": 0.027,
-      "completion_cost_per_1m_usd": 0.201,
-      "supports_tools": false,
-      "supports_structured_output": false
     },
     {
       "model_id": "qwen/qwen3-30b-a3b",
