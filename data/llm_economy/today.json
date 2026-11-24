@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-23T16:46:53.578624+00:00",
+    "generated_at": "2026-11-24T03:35:47.223858+00:00",
     "total_items": 276,
     "schema_version": "1.0.0"
   },
@@ -760,8 +760,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 1.32,
-      "completion_cost_per_1m_usd": 3.96,
+      "prompt_cost_per_1m_usd": 0.111,
+      "completion_cost_per_1m_usd": 4.44,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -771,7 +771,7 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.0434,
+      "prompt_cost_per_1m_usd": 0.0443,
       "completion_cost_per_1m_usd": 0.3,
       "supports_tools": true,
       "supports_structured_output": true
@@ -881,8 +881,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.9,
-      "completion_cost_per_1m_usd": 1.5,
+      "prompt_cost_per_1m_usd": 1.28,
+      "completion_cost_per_1m_usd": 2.56,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1948,8 +1948,8 @@
       "provider": "google",
       "context_window_tokens": 262144,
       "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.09,
-      "completion_cost_per_1m_usd": 0.3,
+      "prompt_cost_per_1m_usd": 0.0765,
+      "completion_cost_per_1m_usd": 0.255,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2651,9 +2651,9 @@
       "name": "Meta: Llama 3.1 8B Instruct",
       "provider": "meta-llama",
       "context_window_tokens": 131072,
-      "max_output_tokens": 16384,
-      "prompt_cost_per_1m_usd": 0.02,
-      "completion_cost_per_1m_usd": 0.04,
+      "max_output_tokens": 117964,
+      "prompt_cost_per_1m_usd": 0.05,
+      "completion_cost_per_1m_usd": 0.08,
       "supports_tools": true,
       "supports_structured_output": true
     },
