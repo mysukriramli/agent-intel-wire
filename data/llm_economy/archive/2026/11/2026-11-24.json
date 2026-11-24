@@ -1,8 +1,8 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-24T03:35:47.223858+00:00",
-    "total_items": 276,
+    "generated_at": "2026-11-24T16:40:53.730910+00:00",
+    "total_items": 274,
     "schema_version": "1.0.0"
   },
   "models": [
@@ -672,8 +672,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.0498,
-      "completion_cost_per_1m_usd": 0.1992,
+      "prompt_cost_per_1m_usd": 0.0507,
+      "completion_cost_per_1m_usd": 0.2028,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -771,7 +771,7 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.0443,
+      "prompt_cost_per_1m_usd": 0.0456,
       "completion_cost_per_1m_usd": 0.3,
       "supports_tools": true,
       "supports_structured_output": true
@@ -1948,8 +1948,8 @@
       "provider": "google",
       "context_window_tokens": 262144,
       "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.0765,
-      "completion_cost_per_1m_usd": 0.255,
+      "prompt_cost_per_1m_usd": 0.09,
+      "completion_cost_per_1m_usd": 0.3,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2493,17 +2493,6 @@
       "supports_structured_output": true
     },
     {
-      "model_id": "mistralai/mistral-medium-3.1",
-      "name": "Mistral: Mistral Medium 3.1",
-      "provider": "mistralai",
-      "context_window_tokens": 131072,
-      "max_output_tokens": 104857,
-      "prompt_cost_per_1m_usd": 0.44,
-      "completion_cost_per_1m_usd": 2.2,
-      "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
       "model_id": "openai/gpt-oss-120b",
       "name": "OpenAI: gpt-oss-120b",
       "provider": "openai",
@@ -2544,17 +2533,6 @@
       "max_output_tokens": 117964,
       "prompt_cost_per_1m_usd": 0.024,
       "completion_cost_per_1m_usd": 0.112,
-      "supports_tools": true,
-      "supports_structured_output": true
-    },
-    {
-      "model_id": "mistralai/mistral-medium-3",
-      "name": "Mistral: Mistral Medium 3",
-      "provider": "mistralai",
-      "context_window_tokens": 131072,
-      "max_output_tokens": 104857,
-      "prompt_cost_per_1m_usd": 0.44,
-      "completion_cost_per_1m_usd": 2.2,
       "supports_tools": true,
       "supports_structured_output": true
     },
