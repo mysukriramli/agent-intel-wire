@@ -1,8 +1,8 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-25T16:24:54.297011+00:00",
-    "total_items": 274,
+    "generated_at": "2026-11-26T01:17:35.535407+00:00",
+    "total_items": 278,
     "schema_version": "1.0.0"
   },
   "models": [
@@ -617,8 +617,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.15,
-      "completion_cost_per_1m_usd": 0.6,
+      "prompt_cost_per_1m_usd": 0.3,
+      "completion_cost_per_1m_usd": 1.2,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -672,8 +672,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.0507,
-      "completion_cost_per_1m_usd": 0.2028,
+      "prompt_cost_per_1m_usd": 0.14,
+      "completion_cost_per_1m_usd": 0.42,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -770,9 +770,9 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.0456,
-      "completion_cost_per_1m_usd": 0.3,
+      "max_output_tokens": 384000,
+      "prompt_cost_per_1m_usd": 0.06,
+      "completion_cost_per_1m_usd": 0.18,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -881,8 +881,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.7775,
-      "completion_cost_per_1m_usd": 1.5852,
+      "prompt_cost_per_1m_usd": 0.8882,
+      "completion_cost_per_1m_usd": 1.5082,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1948,8 +1948,8 @@
       "provider": "google",
       "context_window_tokens": 262144,
       "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.09,
-      "completion_cost_per_1m_usd": 0.3,
+      "prompt_cost_per_1m_usd": 0.0765,
+      "completion_cost_per_1m_usd": 0.255,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1998,12 +1998,23 @@
       "supports_structured_output": true
     },
     {
+      "model_id": "mistralai/mistral-small-2603:batch",
+      "name": "Mistral: Mistral Small 4 (batch)",
+      "provider": "mistralai",
+      "context_window_tokens": 262144,
+      "max_output_tokens": 209715,
+      "prompt_cost_per_1m_usd": 0.075,
+      "completion_cost_per_1m_usd": 0.3,
+      "supports_tools": true,
+      "supports_structured_output": true
+    },
+    {
       "model_id": "qwen/qwen3.5-9b",
       "name": "Qwen: Qwen3.5-9B",
       "provider": "qwen",
       "context_window_tokens": 262144,
       "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.17,
+      "prompt_cost_per_1m_usd": 0.1,
       "completion_cost_per_1m_usd": 0.25,
       "supports_tools": true,
       "supports_structured_output": true
@@ -2046,9 +2057,9 @@
       "name": "Qwen: Qwen3.5 397B A17B",
       "provider": "qwen",
       "context_window_tokens": 262144,
-      "max_output_tokens": 81920,
-      "prompt_cost_per_1m_usd": 0.45,
-      "completion_cost_per_1m_usd": 3.0,
+      "max_output_tokens": 235929,
+      "prompt_cost_per_1m_usd": 0.5,
+      "completion_cost_per_1m_usd": 3.6,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2097,6 +2108,17 @@
       "supports_structured_output": true
     },
     {
+      "model_id": "mistralai/ministral-8b-2512:batch",
+      "name": "Mistral: Ministral 3 8B 2512 (batch)",
+      "provider": "mistralai",
+      "context_window_tokens": 262144,
+      "max_output_tokens": 209715,
+      "prompt_cost_per_1m_usd": 0.075,
+      "completion_cost_per_1m_usd": 0.075,
+      "supports_tools": true,
+      "supports_structured_output": true
+    },
+    {
       "model_id": "mistralai/mistral-large-2512",
       "name": "Mistral: Mistral Large 3 2512",
       "provider": "mistralai",
@@ -2104,6 +2126,17 @@
       "max_output_tokens": 209715,
       "prompt_cost_per_1m_usd": 0.5,
       "completion_cost_per_1m_usd": 1.5,
+      "supports_tools": true,
+      "supports_structured_output": true
+    },
+    {
+      "model_id": "mistralai/mistral-large-2512:batch",
+      "name": "Mistral: Mistral Large 3 2512 (batch)",
+      "provider": "mistralai",
+      "context_window_tokens": 262144,
+      "max_output_tokens": 209715,
+      "prompt_cost_per_1m_usd": 0.25,
+      "completion_cost_per_1m_usd": 0.75,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2203,6 +2236,17 @@
       "max_output_tokens": 204800,
       "prompt_cost_per_1m_usd": 0.3,
       "completion_cost_per_1m_usd": 0.9,
+      "supports_tools": true,
+      "supports_structured_output": true
+    },
+    {
+      "model_id": "mistralai/codestral-2508:batch",
+      "name": "Mistral: Codestral 2508 (batch)",
+      "provider": "mistralai",
+      "context_window_tokens": 256000,
+      "max_output_tokens": 204800,
+      "prompt_cost_per_1m_usd": 0.15,
+      "completion_cost_per_1m_usd": 0.45,
       "supports_tools": true,
       "supports_structured_output": true
     },
