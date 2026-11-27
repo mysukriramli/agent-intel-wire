@@ -1,7 +1,7 @@
 {
   "metadata": {
     "domain": "llm_economy",
-    "generated_at": "2026-11-26T15:58:57.434800+00:00",
+    "generated_at": "2026-11-27T01:15:43.641937+00:00",
     "total_items": 278,
     "schema_version": "1.0.0"
   },
@@ -617,8 +617,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.15,
-      "completion_cost_per_1m_usd": 0.6,
+      "prompt_cost_per_1m_usd": 0.3,
+      "completion_cost_per_1m_usd": 1.2,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -672,8 +672,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.0507,
-      "completion_cost_per_1m_usd": 0.2028,
+      "prompt_cost_per_1m_usd": 0.14,
+      "completion_cost_per_1m_usd": 0.42,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -759,9 +759,9 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
       "context_window_tokens": 1048576,
-      "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.111,
-      "completion_cost_per_1m_usd": 4.44,
+      "max_output_tokens": 393216,
+      "prompt_cost_per_1m_usd": 0.25,
+      "completion_cost_per_1m_usd": 5.0,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -771,7 +771,7 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 943718,
-      "prompt_cost_per_1m_usd": 0.0456,
+      "prompt_cost_per_1m_usd": 0.047,
       "completion_cost_per_1m_usd": 0.3,
       "supports_tools": true,
       "supports_structured_output": true
@@ -881,8 +881,8 @@
       "provider": "deepseek",
       "context_window_tokens": 1048576,
       "max_output_tokens": 393216,
-      "prompt_cost_per_1m_usd": 0.8215,
-      "completion_cost_per_1m_usd": 1.5381,
+      "prompt_cost_per_1m_usd": 0.8882,
+      "completion_cost_per_1m_usd": 1.5887,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -1948,8 +1948,8 @@
       "provider": "google",
       "context_window_tokens": 262144,
       "max_output_tokens": 235929,
-      "prompt_cost_per_1m_usd": 0.09,
-      "completion_cost_per_1m_usd": 0.3,
+      "prompt_cost_per_1m_usd": 0.0765,
+      "completion_cost_per_1m_usd": 0.255,
       "supports_tools": true,
       "supports_structured_output": true
     },
@@ -2596,9 +2596,9 @@
       "name": "Google: Gemma 3 4B",
       "provider": "google",
       "context_window_tokens": 131072,
-      "max_output_tokens": 117964,
-      "prompt_cost_per_1m_usd": 0.04,
-      "completion_cost_per_1m_usd": 0.05,
+      "max_output_tokens": 16384,
+      "prompt_cost_per_1m_usd": 0.05,
+      "completion_cost_per_1m_usd": 0.1,
       "supports_tools": false,
       "supports_structured_output": true
     },
@@ -2629,9 +2629,9 @@
       "name": "Meta: Llama 3.3 70B Instruct",
       "provider": "meta-llama",
       "context_window_tokens": 131072,
-      "max_output_tokens": 115200,
-      "prompt_cost_per_1m_usd": 0.71,
-      "completion_cost_per_1m_usd": 0.71,
+      "max_output_tokens": 32768,
+      "prompt_cost_per_1m_usd": 0.59,
+      "completion_cost_per_1m_usd": 0.79,
       "supports_tools": true,
       "supports_structured_output": true
     },
